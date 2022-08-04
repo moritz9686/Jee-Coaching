@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: block;
+            width: 304px;
+            margin-left: 500px;
+            font-family: 'Viaoda Libre', cursive;
+
+        }
+
+        .name {
+            background-color: #0095ff63;
+            padding: 32px;
+            display: flex;
+            justify-content: center;
+            border: 2px solid black;
+            border-radius: 9px;
+            box-shadow: 2px 3px 17px 10px #7fff008c;
+            font-family: 'Viaoda Libre', cursive;
+
+
+        }
+
+        .id {
+            background-color: #a52a2a94;
+
+            padding: 32px;
+            display: flex;
+            justify-content: center;
+            margin-top: 56px;
+            border: 2px solid black;
+            border-radius: 9px;
+            box-shadow: 2px 3px 17px 10px #7fff008c;
+            font-family: 'Viaoda Libre', cursive;
+
+        }
+
+        .contact {
+            background-color: #deb8875e;
+            padding: 32px;
+            display: flex;
+            justify-content: center;
+            margin-top: 56px;
+            border: 2px solid black;
+            border-radius: 9px;
+            box-shadow: 2px 3px 17px 10px #7fff008c;
+            font-family: 'Viaoda Libre', cursive;
+
+        }
+
+        .course {
+            background-color: #deb8875e;
+            padding: 32px;
+            display: block;
+
+
+            margin-top: 66px;
+            border: 2px solid black;
+            border-radius: 9px;
+            box-shadow: 2px 3px 17px 10px #7fff008c;
+            font-family: 'Viaoda Libre', cursive;
+
+
+
+        }
+
+        h3 {
+            padding: 3px;
+
+            width: 178px;
+            height: 24px;
+            margin-left: 39px;
+        }
+
+        h1 {
+            margin-left: 550px;
+            font-family: 'Viaoda Libre', cursive;
+        }
+
+        .btn {
+            margin-top: 49px;
+            margin-left: 506px;
+            background-color: #7e800061;
+            border: 2px solid black;
+           
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <script type="text/javascript">
+		var text = document.getElementById("one").innerHTML;
+		alert("This webpage  is for  " + text);
+  </script>
+    <form action="">
+    <h1>Fill the form </h1>
+
+    <div class="container">
+        <div class="name">
+            Name: <br>
+            <input type="text">
+        </div>
+        <div class="id">
+            Email.id: <input type="email">
+        </div>
+        <div class="contact">
+            Phone number:<input type="number">
+        </div>
+        <div class="course">
+            <h3>Select The courses</h3>
+
+            <div class="type">
+                <ul>
+                    <li>C language <input type="checkbox"></li>
+                    <li>C++ <input type="checkbox"></li>
+                    <li>Javascript <input type="checkbox"></li>
+                    <li>Python <input type="checkbox"></li>
+                    <li>Python3 <input type="checkbox"></li>
+                    <li>Html,Css <input type="checkbox"></li>
+                    <li>PHP <input type="checkbox"></li>
+                    <li>Java <input type="checkbox"></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <input type="submit" class="btn" value="Submit">
+</form>
+   
+
+</body>
+
+</html>
